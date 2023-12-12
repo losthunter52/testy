@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest identifier="course2639" version="1.2" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:imsmd="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+  </metadata>
+  <organizations default="comportamento_metodo_coach">
+    <organization identifier="comportamento_metodo_coach">
+      <title>Método Coach</title>
+
+      <item identifier="topic1_1" identifierref="t1" isvisible="true">
+        <title>Conceitos da OAC</title>
+      </item>
+      <item identifier="topic1_2" identifierref="t2" isvisible="true">
+        <title>Pilares da OAC</title>
+      </item>
+      <item identifier="topic1_3" identifierref="t3" isvisible="true">
+        <title>Método Coach</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="t1" type="webcontent" adlcp:scormtype="sco" href="index.html?topic=1">
+      <file href="index.html" />
+    </resource>
+    <resource identifier="t2" type="webcontent" adlcp:scormtype="sco" href="index.html?topic=2">
+      <file href="index.html" />
+    </resource>
+    <resource identifier="t3" type="webcontent" adlcp:scormtype="sco" href="index.html?topic=3">
+      <file href="index.html" />
+    </resource>
+  </resources>
+</manifest>
